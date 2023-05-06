@@ -17,7 +17,7 @@ Redémarrage de tous les conteneurs LXC avec la commande pct restart.
 Menu permettant de choisir entre les différentes actions ou de quitter le script.
 
 ## Notes
-Ce script a été testé sur Proxmox 6.4-6 et devrait fonctionner sur d'autres versions de Proxmox.
+Ce script a été testé sur Proxmox 7.4-3 et devrait fonctionner sur d'autres versions de Proxmox.
 Ce script doit être exécuté en tant qu'utilisateur root sur le serveur Proxmox.
 Ce script ne sauvegarde pas les conteneurs avant de les mettre à jour ou de les redémarrer. Il est recommandé de sauvegarder les conteneurs avant d'exécuter ce script.
 Ce script ne gère pas les erreurs qui pourraient survenir pendant l'exécution. Veuillez vérifier les journaux du système pour identifier et résoudre tout problème.
