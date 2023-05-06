@@ -4,10 +4,12 @@ Ce script en shell permet de mettre à jour et de redémarrer tous les conteneur
 
 ## Utilisation
 Connectez-vous au serveur Proxmox en tant qu'utilisateur root.
-Téléchargez le script sur le serveur.
-Rendez le script exécutable (chmod +x proxmoxupdatelxc.sh).
-Exécutez le script (bash proxmoxupdatelxc.sh).
-Choisissez l'option souhaitée dans le menu.
+Suivez les commandes ci-dessous, pour télécharger, rendre éxécutable et lancer le script :
+```bash
+wget https://raw.githubusercontent.com/tomnoel41/ProxmoxUpdateLXC/main/proxmoxupdatelxc.sh
+chmod +x proxmoxupdatelxc.sh
+bash proxmoxupdatelxc.sh
+```
 
 ## Fonctionnalités
 Le script effectue les opérations suivantes :
