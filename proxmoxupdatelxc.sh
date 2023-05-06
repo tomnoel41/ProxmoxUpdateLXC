@@ -3,7 +3,7 @@
 # Fonction pour mettre à jour un CT
 update_ct() {
     echo "Mise à jour du CT $1 en cours..."
-    pct exec $1 apt-get update && apt-get dist-upgrade -y
+    pct exec $1 apt-get update && apt-get dist-upgrade -y && apt full-upgrade -y
     echo "Mise à jour du CT $1 terminée."
 }
 
